@@ -75,7 +75,7 @@ type SupportedLang = keyof LanguageMap; // "en" | "ar"
 
 const language_data = language_data_json as LanguageMap;
 
-const GOOGLE_MAPS_KEY = "AIzaSyAz-86S4v56VHaobANWNxRxTyZ44aHtLYY";
+const GOOGLE_MAPS_KEY = "";
 
 type Props = DrawerScreenProps<DrawerParamList, "LocationScreen">;
 
