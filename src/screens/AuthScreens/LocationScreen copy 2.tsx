@@ -66,7 +66,7 @@ type SupportedLang = keyof LanguageMap; // "en" | "ar"
 
 const language_data = language_data_json as LanguageMap;
 
-const GOOGLE_MAPS_KEY = "AIzaSyBwIAMX7VpWwt52mKTc0h-9boxwtCdlm5s";
+const GOOGLE_MAPS_KEY = "";
 const milestones = [2, 5, 10, 15, 20]; // Radius options (in km)
 
 type Props = DrawerScreenProps<DrawerParamList, "LocationScreen">;
