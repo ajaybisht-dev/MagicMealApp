@@ -38,7 +38,7 @@ type Restaurant = {
   longitude: number;
 };
 
-const GOOGLE_MAPS_KEY = "AIzaSyCSJSPvSdejLXltd-lMGdj-rpw-gu2tN4s";
+const GOOGLE_MAPS_KEY = "";
 const milestones = [2, 5, 10, 15, 20]; // Radius options (in km)
 
 const LocationScreen: React.FC = () => {
